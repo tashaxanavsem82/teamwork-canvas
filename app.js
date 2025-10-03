@@ -9,7 +9,7 @@ const initCanvas = () => {
     const ctx = canvas.getContext('2d');
 
     // Basic drawing settings
-    const backgroundColor = '#d3d3d3'; // Changed to light gray
+    const backgroundColor = '#e0e0e0'; // Updated to a softer light gray
     ctx.fillStyle = backgroundColor;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 };
